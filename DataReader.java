@@ -4,16 +4,18 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class DataReader {
+
+    private static final String filename = "HealthyCities.csv";
     
     /**
      * Method to read .csv files and store the indiviudal attributes of each city in an ArrayList object.
      * </p> Credit: Cody Henrichsen (https://youtu.be/IDMBEcHGeSU)
      * 
      * @param filename - The name of the .csv file to read from.
-     * @return ArrayList of City objects.
+     * @return ArrayList of all data in provided .csv file, encapsulated in City objects
      * @author Coby Henrichsen, with some minor changes by Ahmed Osman
      */
-    public static ArrayList<City> readData(String filename) {
+    public static ArrayList<City> readData() {
         ArrayList<City> dataList = new ArrayList<City>();
 
         File dataFile = new File(filename);
