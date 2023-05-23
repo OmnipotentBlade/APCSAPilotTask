@@ -25,7 +25,7 @@ public class City {
     }
     
     /****************** 
-      Retrival Methods
+      Retrieval Methods
     *******************/
 
     public String getStateAbbr() {

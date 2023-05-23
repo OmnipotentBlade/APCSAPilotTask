@@ -115,7 +115,7 @@ public class Main {
     }
 
     /*******************
-     Comparision Methods
+     Comparison Methods
     ********************/
 
     public static void getHighestPopulation() {
